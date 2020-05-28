@@ -657,7 +657,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-top: 8px;
   text-align: center;
   position: absolute;
-  background-color: #18d26e;
+  background-color: #800080;
   border-radius: 50%;
   text-align: center;
   border: 4px solid #fff;
@@ -678,7 +678,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-col:hover i {
-  color: #18d26e;
+  color: #800080;
 }
 
 #about .about-col h2 {
@@ -1333,4 +1333,123 @@ width: 300px;
   text-align: center;
   font-size: 13px;
   color: #ddd;
+}
+
+
+/* --- Pricing box --- */
+.pricing-box {
+	padding-left:0;
+	padding-right:0;
+	
+}
+
+.pricing-content {
+	background:#fff;
+	-webkit-box-shadow:0 0 7px rgba(0,0,0,0.1);
+	box-shadow:0 0 7px rgba(0,0,0,0.1);
+	margin-top:20px;
+	-webkit-transition:all .25s ease-in-out;
+	-moz-transition:all .25s ease-in-out;
+	-o-transition:all .25s ease-in-out;
+	transition:all .25s ease-in-out;
+	position:relative;
+	
+	border-radius: 4px;
+}
+.pricing-content.general {
+	z-index:99;
+}
+
+.pricing-content:hover {
+	margin-top:-10px;
+	-webkit-transition:all .25s ease-in-out;
+	-moz-transition:all .25s ease-in-out;
+	-o-transition:all .25s ease-in-out;
+	transition:all .25s ease-in-out;
+	-webkit-box-shadow:0 2px 20px 0 rgba(0,0,0,0.2);
+	box-shadow:0 2px 20px 0 rgba(0,0,0,0.2);
+}
+
+.pricing-content h2 {
+	background-color: black;
+	color:#FFF;
+	font-size:17px;
+	text-align:center;
+	margin-bottom:0;
+	padding:30px 0;
+	border-radius: 4px 4px 0 0;
+}
+
+.pricing-content h3 {
+	color:#fff;
+	text-align:center;
+	font-size:32px;
+	background: #800080;
+	margin-bottom:0;
+	font-weight:700;
+	padding:30px 0;
+}
+
+.pricing-content h3 span {
+	font-weight:300;
+	font-size:18px;
+}
+
+.pricing-content h3 sup {
+	font-size:18px;
+}
+
+.pricing-content ul {
+	list-style:none;
+	margin:25px 0;
+}
+
+.pricing-content li {
+	border-top:1px dotted #EFEFEF;
+	width:75%;
+	color:#333;
+	margin:0 auto;
+	padding:15px 0;
+}
+
+.pricing-content li:first-child {
+	border-top:none;
+}
+
+.pricing-content li i {
+	float:right;
+
+}
+
+
+
+.pricing-content li del {
+	color:#800080;
+}
+
+.price-bottom {
+	background:#f7f7f7;
+	text-align:center;
+	padding:25px 0;
+	border-radius: 0 0 4px 4px;
+}
+
+
+.pricing-content p {
+	background:#F8F8F8;
+	padding:20px;
+}
+
+.pricing-content.featured {
+	margin-top:-20px;
+	position:relative;
+	z-index:99;
+	-webkit-box-shadow:0 2px 20px 0 #800080;
+	box-shadow:0 2px 20px 0 rgba(0,0,0,0.2);
+}
+
+
+.pricing-content.featured h3 {
+	font-size:38px;
+	padding:45px 0;
 }
