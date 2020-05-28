@@ -789,36 +789,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 2px solid #18d26e;
 }
 
-/* Call To Action Section
---------------------------------*/
-#skills {
-  padding: 60px 0;
-}
-
-#skills .progress {
-  height: 35px;
-  margin-bottom: 10px;
-}
-
-#skills .progress .skill {
-  font-family: "Open Sans", sans-serif;
-  line-height: 35px;
-  padding: 0;
-  margin: 0 0 0 20px;
-  text-transform: uppercase;
-}
-
-#skills .progress .skill .val {
-  float: right;
-  font-style: normal;
-  margin: 0 20px 0 0;
-}
-
-#skills .progress-bar {
-  width: 1px;
-  text-align: left;
-  transition: .9s;
-}
 
 /* Facts Section
 --------------------------------*/
@@ -1040,7 +1010,7 @@ width: 300px;
   font-size: 48px;
   display: inline-block;
   margin-bottom: 10px;
-  color: #18d26e;
+  color: #800080;
 }
 
 #contact .contact-info address, #contact .contact-info p {
@@ -1061,7 +1031,7 @@ width: 300px;
 }
 
 #contact .contact-info a:hover {
-  color: #18d26e;
+  color: #800080;
 }
 
 #contact .contact-address, #contact .contact-phone, #contact .contact-email {
@@ -1106,7 +1076,7 @@ width: 300px;
 #contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: #800080;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1126,7 +1096,7 @@ width: 300px;
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #800080;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -1140,11 +1110,11 @@ width: 300px;
 }
 
 #contact .php-email-form input::focus, #contact .php-email-form textarea::focus {
-  background-color: #18d26e;
+  background-color: #800080;
 }
 
 #contact .php-email-form button[type="submit"] {
-  background: #18d26e;
+  background: #800080;
   border: 0;
   padding: 10px 30px;
   color: #fff;
