@@ -187,6 +187,7 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+
 }
 
 #intro .carousel-item::before {
@@ -620,6 +621,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
 }
 
+#pricing {
+  background: linear-gradient(45deg, #ddd, #ddddddf2), url(../img/about-bg.jpg) center top no-repeat fixed;
+  background-size: cover;
+  
+  padding: 60px 0 40px 0;
+  position: relative;
+  
+  
+}
+
 #about::before {
   content: '';
   position: absolute;
@@ -695,7 +706,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-col h2 a:hover {
-  color: #18d26e;
+  color: #800080;
 }
 
 #about .about-col p {
@@ -723,7 +734,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .icon i {
-  color: #18d26e;
+  color: #800080;
   font-size: 36px;
   line-height: 1;
   transition: 0.5s;
@@ -741,7 +752,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .box:hover .title a {
-  color: #18d26e;
+  color: #800080;
 }
 
 #services .description {
