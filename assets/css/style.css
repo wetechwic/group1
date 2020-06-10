@@ -183,7 +183,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #intro .carousel-item {
   width: 100%;
-  height: 145vh;
+  height: 100vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -192,7 +192,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #intro .carousel-item::before {
   content: '';
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(20, 1, 18, 0.329);
+  
   position: absolute;
   height: 100%;
   width: 100%;
@@ -215,6 +216,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #intro .carousel-background img {
  max-width: 100%;
+ top : 3000px;
 }
 
 #intro .carousel-content {
@@ -306,12 +308,12 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
   margin: 10px;
   color: #fff;
-  background: #18d26e;
+  background: #800080;
 }
 
 #intro .btn-get-started:hover {
   background: #fff;
-  color: #18d26e;
+  color: #800880;
 }
 
 /*--------------------------------------------------------------
@@ -619,6 +621,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: cover;
   padding: 60px 0 40px 0;
   position: relative;
+}
+
+.ajout{
+  height: 233px; width: 400px;
 }
 
 #pricing {
