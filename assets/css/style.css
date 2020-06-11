@@ -623,9 +623,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
 }
 
-.ajout{
-  height: 233px; width: 400px;
-}
+
 
 #pricing {
   background: linear-gradient(45deg, #ddd, #ddddddf2), url(../img/about-bg.jpg) center top no-repeat fixed;
@@ -633,7 +631,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   
   padding: 60px 0 40px 0;
   position: relative;
-  
+  width: auto;
   
 }
 
@@ -1431,4 +1429,11 @@ width: 300px;
 .pricing-content.featured h3 {
   font-size:38px;
   padding:45px 0;
+}
+
+#pricing .title {
+  margin-left: 60px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
 }
