@@ -192,7 +192,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #intro .carousel-item::before {
   content: '';
-  background-color: rgba(20, 1, 18, 0.329);
+  background-color: rgba(20, 1, 18, 0.1);
   
   position: absolute;
   height: 100%;
@@ -216,6 +216,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #intro .carousel-background img {
  max-width: 100%;
+ max-height: 100%;
  top : 3000px;
 }
 
@@ -764,83 +765,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-left: 60px;
   line-height: 24px;
   margin-bottom: 0;
-}
-
-/* Skills Section
---------------------------------*/
-#skills {
-  padding: 60px 0;
-}
-
-#skills .progress {
-  height: 35px;
-  margin-bottom: 10px;
-}
-
-#skills .progress .skill {
-  font-family: "Open Sans", sans-serif;
-  line-height: 35px;
-  padding: 0;
-  margin: 0 0 0 20px;
-  text-transform: uppercase;
-}
-
-#skills .progress .skill .val {
-  float: right;
-  font-style: normal;
-  margin: 0 20px 0 0;
-}
-
-#skills .progress-bar {
-  width: 1px;
-  text-align: left;
-  transition: .9s;
-}
-
-/* Facts Section
---------------------------------*/
-#facts {
-  background: url("../img/facts-bg.jpg") center top no-repeat fixed;
-  background-size: cover;
-  padding: 60px 0 0 0;
-  position: relative;
-}
-
-#facts::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: rgba(255, 255, 255, 0.88);
-  z-index: 9;
-}
-
-#facts .container {
-  position: relative;
-  z-index: 10;
-}
-
-#facts .counters span {
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  font-size: 48px;
-  display: block;
-  color: #18d26e;
-}
-
-#facts .counters p {
-  padding: 0;
-  margin: 0 0 20px 0;
-  font-family: "Montserrat", sans-serif;
-  font-size: 14px;
-  color: #111;
-}
-
-#facts .facts-img {
-  text-align: center;
-  padding-top: 30px;
 }
 
 
