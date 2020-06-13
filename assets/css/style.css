@@ -509,7 +509,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mobile-nav ul li a:hover {
-  color: #18d26e;
+  color: #800880;
 }
 
 #mobile-nav ul li li {
@@ -517,7 +517,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mobile-nav ul li.menu-active a {
-  color: #18d26e;
+  color: #800880;
 }
 
 #mobile-nav ul .menu-has-children i {
