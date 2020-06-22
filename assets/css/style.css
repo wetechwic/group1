@@ -860,6 +860,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
 }
 
+#team .member .img-fluid
+{
+  width: 300px;
+  height: 250px;
+}
+
 #team .member .member-info {
   opacity: 0;
   display: flex;
@@ -870,12 +876,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   top: 0;
   left: 0;
   right: 0;
-  transition: 0.2s;
 }
 
 #team .member .member-info-content {
-  margin-top: -50px;
-  transition: margin 0.2s;
+  margin-top: 10px;
 }
 
 #team .member:hover .member-info {
@@ -889,18 +893,18 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: margin 0.4s;
 }
 
-#team .member h4 {
+#team  h4 {
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 18px;
-  color: #fff;
+  color: #000000;
 }
 
-#team .member span {
+#team span {
   font-style: italic;
   display: block;
   font-size: 13px;
-  color: #fff;
+  color: #000000;
 }
 
 #team .member .social {
@@ -913,18 +917,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #team .member .social a:hover {
-  color: #18d26e;
+  color: #800080;
 }
 
 #team .member .social i {
   font-size: 18px;
   margin: 0 2px;
 }
-#team .member .img-fluid
-{
-width: 300px;
-  height: 250px;
-}
+
 
 /* Contact Section
 --------------------------------*/
@@ -1254,7 +1254,6 @@ width: 300px;
   -o-transition:all .25s ease-in-out;
   transition:all .25s ease-in-out;
   position:relative;
-  
   border-radius: 4px;
 }
 .pricing-content.general {
@@ -1372,13 +1371,27 @@ width: 300px;
 }
 
 .pri_table_list {
+  background:#fff;
+  -webkit-box-shadow:0 0 7px rgba(0,0,0,0.1);
+  box-shadow:0 0 7px rgba(0,0,0,0.1);
+  margin-top:20px;
+  -webkit-transition:all .25s ease-in-out;
+  -moz-transition:all .25s ease-in-out;
+  -o-transition:all .25s ease-in-out;
+  transition:all .25s ease-in-out;
+  position:relative;
+  border-radius: 4px;
+  
+  /*border-radius: 4px;
   border: 1px solid #880788;
   text-align: center;
   transition: all 0.4s ease 0s;
   background: #fff;
+  -webkit-box-shadow:0 2px 20px 0 #800080;
+  box-shadow:0 2px 20px 0 rgba(0,0,0,0.2);*/
 }
 
-.pri_table_list h3 span {
+.pri_table_list h2 {
   font-size: 16px;
 }
 
@@ -1415,21 +1428,35 @@ width: 300px;
   border: 1px solid #444;
   color: #fff;
   margin-bottom: 25px;
+  margin-left: 100px;
   padding: 10px 35px;
   text-transform: uppercase;
   transition: all 0.4s ease 0s;
   border-radius: 30px;
+
+}
+
+.pri_table_list>h2 {
+  background-color: #000000;
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 25px;
+  padding: 30px 0 20px;
+  transition: all 0.4s ease 0s;
+  text-align: center;
 }
 
 .pri_table_list>h3 {
   background-color: #880788;
   color: white;
-  font-size: 22px;
-  font-weight: 100;
+  font-size: 18px;
+  font-weight: 400;
   line-height: 25px;
   padding: 30px 0 20px;
-  text-transform: capitalize;
   transition: all 0.4s ease 0s;
+  text-align: center;
+  margin-top: -30px;
 }
 
 .pri_table_list ol {
